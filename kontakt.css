@@ -1,0 +1,74 @@
+body{
+  background-color: aquamarine;
+}
+
+table {
+  align
+  width: 400px;
+}
+
+th {
+  text-align: left;
+}
+
+table, th, td {
+  border:1px solid
+}
+th,dt{
+  padding: 10px
+}
+
+tr:nth-child(odd){
+  background-color: lightgray;
+}
+tr:nth-child(even){
+  background-color:white;
+}
+
+input[type=text] {
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+select{
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+input[type=submit] {
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+button {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 13px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(66, 84, 243);
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+
+}
+
+
+li a:hover {
+  background-color: rgb(151, 153, 247); 
+  color: black;
+
+
+  
